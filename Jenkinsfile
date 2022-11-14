@@ -28,8 +28,8 @@ pipeline {
         }
         stage("Docker push") {
             steps {
-                sh 'docker tag devops-kubernetes phucpham9xx/devops-kubernetes'
-                sh 'docker push phucpham9xx/devops-kubernetes'
+//                 sh 'docker tag devops-kubernetes phucpham9xx/devops-kubernetes'
+                sh 'docker push phucpham9xx/devops-kubernetes:latest'
             }
         }
     }
