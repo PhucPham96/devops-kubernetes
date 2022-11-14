@@ -55,6 +55,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>devops-kubernetes</finalName>
 	</build>
 
 </project>
